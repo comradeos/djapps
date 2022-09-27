@@ -6,7 +6,7 @@ services:
       context: ./
     restart: always
     ports:
-      - 8001:8000
+      - "8001:8000"
     volumes:
       - ./sources:/sources
 
@@ -22,4 +22,4 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8002:8080
+      - "8002:8080"
