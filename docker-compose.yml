@@ -17,9 +17,11 @@ services:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - ./data:/var/lib/mysql
+    ports:
+      - "8002:3306"
 
   adminer:
     image: adminer
     restart: always
     ports:
-      - "8002:8080"
+      - "8003:8080"
