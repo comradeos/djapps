@@ -1,27 +1,32 @@
-установить фреймворк
+- установить фреймворк
 pip install django
 
-создать проект
+- создать проект
 django-admin startproject djapps
 
-запустить сервер
+- запустить сервер
 python manage.py runserver
 
-создать приложение
+- создать приложение
 python manage.py startapp tomato
 
-выполнить миграции
+- выполнить миграции
 python manage.py migrate
 
-создать супер пользователя
+- создать супер пользователя
 python manage.py createsuperuser
 
-создать миграции
+- создать миграции
 python manage.py makemigrations
 
-запустить оболочку
+- запустить оболочку
 python manage.py shell
 
-импортировать модель SalesOrder
+- импортировать модель SalesOrder
 from tomato.models import SalesOrder
 
+- Вывести количство элементов (записей в базе) для модели SalesOrder (таблицы tomato_salesorder)
+SalesOrder.objects.all()
+
+- присвоить переменной order первый элемент из списка количства элементов
+order = SalesOrder.objects.all()[0]
