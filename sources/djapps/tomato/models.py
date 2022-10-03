@@ -12,3 +12,4 @@ class SalesOrder(models.Model):
     bool = models.BooleanField(default=1)
     float = models.FloatField(default=0.0)
     time = models.TimeField(default=datetime.now())
+    text = models.TextField(null=True)
