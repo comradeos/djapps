@@ -1,0 +1,27 @@
+установить фреймворк
+pip install django
+
+создать проект
+django-admin startproject djapps
+
+запустить сервер
+python manage.py runserver
+
+создать приложение
+python manage.py startapp tomato
+
+выполнить миграции
+python manage.py migrate
+
+создать супер пользователя
+python manage.py createsuperuser
+
+создать миграции
+python manage.py makemigrations
+
+запустить оболочку
+python manage.py shell
+
+импортировать модель SalesOrder
+from tomato.models import SalesOrder
+
