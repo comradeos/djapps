@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tomato_orders',
+    'tomato_products',
 ]
 
 MIDDLEWARE = [
