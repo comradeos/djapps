@@ -13,7 +13,7 @@
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/sources/djapps/templates" />
+        <option value="$MODULE_DIR$/sources/templates" />
       </list>
     </option>
   </component>
